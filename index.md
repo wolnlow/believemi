@@ -7,7 +7,7 @@ layout: home
 {% if site.cdn.jsdelivr.enabled %}
 {% assign assets_base_url = "https://cdn.jsdelivr.net/gh/wolnlow/jekyll" %}
 {% endif %}
-<template>
+
   <div class="container">
     <div class="sub0">
 <!--      <logo /> -->
@@ -30,4 +30,4 @@ layout: home
     <div class="sub1">37.5
   </div>
   </div>
-</template>
+
