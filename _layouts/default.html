@@ -1,1 +1,18 @@
-
+{% if site.cdn.jsdelivr.enabled %}
+{% assign assets_base_url = "https://cdn.jsdelivr.net/gh/wolnlow/jekyll" %}
+{% endif %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="author" content="believemi" />
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="相信小米" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="{{ assets_base_url }}/favicon.ico" type="image/x-icon" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
+    <link href="{{ assets_base_url }}/_includes/style.css" rel="stylesheet" type="text/css">
+  </head>
+  {{ content }}
+</html>
