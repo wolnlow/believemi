@@ -67,24 +67,6 @@ html {
   border: 1px solid #ff6700;
   background-color: #fff;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* 确保内容垂直居中 */
-}
-
-.sub0 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.sub1 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #ff6700;
-}
   
 .footer {
   position: fixed;
