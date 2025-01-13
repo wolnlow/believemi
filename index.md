@@ -68,15 +68,6 @@ html {
   background-color: #fff;
 }
   
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  padding: 10px;
-  font-size: 14px;
-  background-color: #333;
   color: white;
 }
 
