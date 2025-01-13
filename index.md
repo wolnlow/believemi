@@ -26,6 +26,10 @@ layout: home
     <div class="sub1">37.5
   </div>
   </div>
+  
+<footer class="footer">
+  <p>@ 2025</p>
+</footer>
 
 <style>
 html {
@@ -62,6 +66,36 @@ html {
   color: #ff6700;
   border: 1px solid #ff6700;
   background-color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 确保内容垂直居中 */
+}
+
+.sub0 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sub1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff6700;
+}
+  
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #333;
+  color: white;
 }
 
 </style>
