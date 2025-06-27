@@ -70,10 +70,5 @@ html {
   
   color: white;
 }
- /* 新增页脚样式 */
-.footer {
-    text-align: center;
-    width: 100%;
-    padding: 1rem 0;
-  }
+
 </style>
