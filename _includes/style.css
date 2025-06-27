@@ -34,12 +34,6 @@ color: #ff6700;
 text-shadow: -1px -1px 1px hsla(0, 0%, 89%, 0.9),2px 2px 2px #f7f7f7;
 overflow: hidden;
 }
- /* 新增页脚样式 */
-.footer {
-    text-align: center;
-    width: 100%;
-    padding: 1rem 0;
-  }
 
 @media (max-width: 768px) {
 .title {
