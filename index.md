@@ -11,7 +11,7 @@ layout: home
         :)
       </h1>
       <h2 class="subtitle">
-        相信小米股票今年大涨72%！
+        相信小米股票今年大涨XX%！
       </h2>
       <div class="links">
         <a
