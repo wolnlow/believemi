@@ -23,7 +23,7 @@ layout: home
         </a>
       </div>
     </div>
-    <div class="sub1">60.0
+    <div class="sub1">75.0
   </div>
   </div>
   
